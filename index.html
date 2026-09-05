@@ -1,92 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Zhen (Zoe) Qin — Ph.D. Candidate at The Ohio State University.">
-<title>Zhen Qin</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zhen Qin — Ph.D. Candidate at The Ohio State University.">
+  <title>Zhen Qin</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-  <div class="container nav-wrap">
-    <a class="site-name" href="#home">Zhen (Zoe) Qin</a>
-    <nav>
+<header class="topbar">
+  <div class="shell nav">
+    <a class="brand" href="#top">Zhen Qin</a>
+    <div class="navlinks">
       <a href="#about">About</a>
       <a href="#publications">Publications</a>
       <a href="#research">Research</a>
       <a href="#education">Education</a>
-    </nav>
+    </div>
   </div>
 </header>
 
-<main id="home" class="container">
-<section class="hero">
-  <img src="profile.jpg" alt="Zhen (Zoe) Qin" class="profile-photo">
-  <div>
-    <h1>Zhen Qin （秦臻）</h1>
-    <p class="role">Fourth-year Ph.D. Candidate in Electrical and Computer Engineering</p>
-    <p class="affiliation">The Ohio State University</p>
-    <p class="links">
-      <a href="mailto:qin.681@osu.edu">Email</a> ·
-      <a href="https://scholar.google.com/citations?user=U0ieJ7IAAAAJ" target="_blank">Google Scholar</a> ·
-      <a href="https://www.linkedin.com/in/zhen-qin-641653210/" target="_blank">LinkedIn</a> ·
-      <a href="cv.pdf" target="_blank">CV</a>
-    </p>
-  </div>
-</section>
+<main id="top" class="shell">
+  <section class="hero">
+    <div class="photo-wrap">
+      <img src="profile.jpg" alt="Zhen Qin" class="photo">
+    </div>
+    <div class="hero-copy">
+      <div class="eyebrow">Ph.D. Candidate · The Ohio State University</div>
+      <h1>Zhen Qin <span class="cn">秦臻</span></h1>
+      <p class="aka">I also go by Zoe.</p>
+      <p class="intro">I work on machine learning optimization, with a focus on bilevel optimization, distributed learning, matrix-aware optimization, and communication-efficient learning.</p>
+      <div class="links">
+        <a href="mailto:qin.681@osu.edu">Email</a>
+        <a href="https://scholar.google.com/citations?user=U0ieJ7IAAAAJ" target="_blank">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/zhen-qin-641653210/" target="_blank">LinkedIn</a>
+        <a href="cv.pdf" target="_blank">CV</a>
+      </div>
+      <div class="tags">
+        <span>Bilevel Optimization</span>
+        <span>Distributed Learning</span>
+        <span>Matrix Optimization</span>
+        <span>Stochastic Optimization</span>
+      </div>
+    </div>
+  </section>
 
-<section id="about">
-<h2>About Me</h2>
-<p>I am a fourth-year Ph.D. candidate in Electrical and Computer Engineering at The Ohio State University, advised by Prof. Jia (Kevin) Liu and Prof. Yingbin Liang.</p>
-<p>My research focuses on machine learning optimization, including bilevel optimization, distributed and federated learning, matrix-aware optimization, and communication-efficient learning.</p>
-<p>I am currently seeking research and applied science internship opportunities for Summer 2027.</p>
-</section>
+  <section id="about" class="section">
+    <div class="label">About</div>
+    <div class="body prose">
+      <p>I am a fourth-year Ph.D. candidate in Electrical and Computer Engineering at The Ohio State University, advised by Prof. Jia (Kevin) Liu and Prof. Yingbin Liang.</p>
+      <p>My research studies optimization methods for modern machine learning problems, especially when learning systems are distributed, bilevel, or matrix-structured.</p>
+      <p class="seeking">I am currently seeking research and applied science internship opportunities for Summer 2027.</p>
+    </div>
+  </section>
 
-<section id="news">
-<h2>Recent News</h2>
-<ul>
-<li><strong>2026</strong> — Our work on multi-task bilevel learning and equality-constrained multi-objective optimization appeared at ICML 2026.</li>
-<li><strong>2025</strong> — DUET was published at ICLR 2025.</li>
-</ul>
-</section>
+  <section id="publications" class="section">
+    <div class="label">Selected Publications</div>
+    <div class="body">
+      <article class="paper">
+        <div class="badge">ICLR 2025</div>
+        <div>
+          <h2>DUET: Decentralized Bilevel Optimization without Lower-Level Strong Convexity</h2>
+          <p class="meta"><strong>Zhen Qin</strong>, Zhuqing Liu, Songtao Lu, Yingbin Liang, Jia Liu</p>
+          <p class="venue">International Conference on Learning Representations, 2025</p>
+          <a class="paperlink" href="https://proceedings.iclr.cc/paper_files/paper/2025/file/707a2d58641b2192203b4bf4c532cfe1-Paper-Conference.pdf" target="_blank">Paper ↗</a>
+        </div>
+      </article>
 
-<section id="publications">
-<h2>Selected Publications</h2>
-<div class="pub">
-  <div class="pub-title">DUET: Decentralized Bilevel Optimization without Lower-Level Strong Convexity</div>
-  <div><strong>Zhen Qin</strong>, Zhuqing Liu, Songtao Lu, Yingbin Liang, Jia Liu</div>
-  <div class="venue">International Conference on Learning Representations (ICLR), 2025</div>
-  <a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/707a2d58641b2192203b4bf4c532cfe1-Paper-Conference.pdf" target="_blank">Paper</a>
-</div>
-<div class="pub">
-  <div class="pub-title">A Tale of Two Problems: Multi-Task Bilevel Learning Meets Equality Constrained Multi-Objective Optimization</div>
-  <div>Zhiyao Zhang, Myeung Suk Oh, <strong>Zhen Qin</strong>, Jiaxiang Li, Xin Zhang, Jia Liu</div>
-  <div class="venue">International Conference on Machine Learning (ICML), 2026</div>
-  <a href="https://arxiv.org/pdf/2605.09094" target="_blank">Paper</a>
-</div>
-</section>
+      <article class="paper">
+        <div class="badge">ICML 2026</div>
+        <div>
+          <h2>A Tale of Two Problems: Multi-Task Bilevel Learning Meets Equality Constrained Multi-Objective Optimization</h2>
+          <p class="meta">Zhiyao Zhang, Myeung Suk Oh, <strong>Zhen Qin</strong>, Jiaxiang Li, Xin Zhang, Jia Liu</p>
+          <p class="venue">International Conference on Machine Learning, 2026</p>
+          <a class="paperlink" href="https://arxiv.org/pdf/2605.09094" target="_blank">Paper ↗</a>
+        </div>
+      </article>
+    </div>
+  </section>
 
-<!-- <section id="research">
-<h2>Current Research</h2>
-<div class="research-item">
-  <h3>Distributed Matrix-Aware Optimization</h3>
-  <p>Ongoing research on communication-efficient, matrix-aware optimization for distributed machine learning.</p>
-</div>
-<div class="research-item">
-  <h3>Matrix-Aware Bilevel Optimization</h3>
-  <p>Ongoing research on matrix-aware optimization methods for bilevel learning.</p>
-</div>
-</section> -->
+  <section id="research" class="section">
+    <div class="label">Current Research</div>
+    <div class="body research-grid">
+      <div class="research-card">
+        <div class="kicker">Distributed Optimization</div>
+        <h3>Distributed Matrix-Aware Optimization</h3>
+        <p>Ongoing work on communication-efficient, matrix-aware optimization for distributed machine learning.</p>
+      </div>
+      <div class="research-card">
+        <div class="kicker">Bilevel Learning</div>
+        <h3>Matrix-Aware Bilevel Optimization</h3>
+        <p>Ongoing work on matrix-aware optimization methods for bilevel learning.</p>
+      </div>
+    </div>
+  </section>
 
-<section id="education">
-<h2>Education</h2>
-<div class="edu-row"><div><strong>The Ohio State University</strong><br>Ph.D. in Electrical and Computer Engineering</div><div>Expected 2028</div></div>
-<div class="edu-row"><div><strong>University of Southern California</strong><br>M.A. in Applied Mathematics</div><div>2021</div></div>
-<div class="edu-row"><div><strong>Lanzhou University</strong><br>B.S. in Mathematics and Applied Mathematics</div><div>2018</div></div>
-</section>
+  <section id="education" class="section">
+    <div class="label">Education</div>
+    <div class="body timeline">
+      <div class="edu"><div><h3>The Ohio State University</h3><p>Ph.D. in Electrical and Computer Engineering</p></div><div class="date">Expected 2028</div></div>
+      <div class="edu"><div><h3>University of Southern California</h3><p>M.A. in Applied Mathematics</p></div><div class="date">2021</div></div>
+      <div class="edu"><div><h3>Lanzhou University</h3><p>B.S. in Mathematics and Applied Mathematics</p></div><div class="date">2018</div></div>
+    </div>
+  </section>
 </main>
 
-<footer class="container footer">© 2026 Zhen (Zoe) Qin</footer>
+<footer class="shell footer">
+  <span>© 2026 Zhen Qin</span><span>Last updated September 2026</span>
+</footer>
 </body>
 </html>
