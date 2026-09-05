@@ -25,8 +25,10 @@
 .hero-copy .eyebrow,.hero-copy .aka,.hero-copy .intro{display:none}
 .hero-copy h1{margin-bottom:14px}
 .zoe-name{font-size:.42em;font-weight:500;color:var(--muted);letter-spacing:0;vertical-align:middle}
-.position{font-size:17px;line-height:1.55;color:#454d59;margin:0 0 22px}
-.position span{color:var(--muted)}
+/* .position{font-size:17px;line-height:1.55;color:#454d59;margin:0 0 22px} */
+/* .position span{color:var(--muted)} */
+.position {font-size: 17px;line-height: 1.6;color: #454d59; margin: 0 0 22px;}
+.position span {display: inline-block; margin-top: 3px; color: var(--accent); font-size: 18px; font-weight: 600;}
 .brand-zoe{font-weight:500;color:var(--muted);font-size:.88em}
 
 .aka-visible{margin:7px 0 13px;color:var(--muted);font-size:15px}
