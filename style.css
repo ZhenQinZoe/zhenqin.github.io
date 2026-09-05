@@ -18,3 +18,5 @@
 .service-item{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:start}
 .service-role{color:var(--accent);font-weight:700;font-size:14px}
 @media(max-width:650px){.service-item{grid-template-columns:1fr;gap:2px}}
+
+.service-simple p{margin:0 0 10px}
